@@ -28,7 +28,7 @@
 
 <samp>
 
-I'm not responsible for what you guys do using my tools!, Segala macam backdoor yang membawa gecko dll, gecko asli hanya di github MadExploits
+I'm not responsible for what you guys do using my tools!
 Upload this `fm_gecko.php` To Your Website!
 
 
