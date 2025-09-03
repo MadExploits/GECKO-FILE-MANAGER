@@ -1,47 +1,43 @@
+# 🦎 Gecko File Manager
 
-<div align="center"><h1>Gecko File Manager</h1></div>
-<br>
+![Screenshot](https://raw.githubusercontent.com/MadExploits/GECKO-FILE-MANAGER/refs/heads/main/Screenshot%202025-09-03%20062815.png)
 
-<div align="center">
+Gecko File Manager adalah **file manager berbasis web** dengan berbagai fitur tambahan untuk eksplorasi, manajemen, dan testing keamanan.  
+> ⚠️ **Disclaimer**: Saya tidak bertanggung jawab atas penyalahgunaan tool ini. Gunakan dengan bijak untuk tujuan edukasi atau testing pribadi.
 
-  
- </div>
-<br>
+---
 
+## ✨ Fitur
 
-<div align="center"><h1>Features</h1></div>
+- 🔍 Linux Exploit Suggester  
+- ⏰ Cron Manager  
+- 🔗 Backconnect  
+- 🌐 Port Scanner  
+- 🗄️ Adminer (DB Manager)  
 
-<samp>
+---
 
-* Linux Exploit Suggester
-* Cron Manager
-* Backconnect
-* Port scanner
-* Adminer
+## 📥 Instalasi
 
+1. Upload file `fm_gecko.php` ke server / website kamu.  
+2. Akses melalui browser.  
+3. Done ✅  
 
+---
 
-</samp>
-  
+## 📸 Screenshot
 
-<div align="center"><h1>Read this</h1></div>
+![UI](https://raw.githubusercontent.com/MadExploits/GECKO-FILE-MANAGER/refs/heads/main/Screenshot%202025-09-03%20062815.png)
 
-<samp>
+---
 
-I'm not responsible for what you guys do using my tools!
-Upload this `fm_gecko.php` To Your Website!
+## ☕ Dukung Saya
 
+Jika kamu suka project ini, dukung saya dengan:  
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/MadExploits/GECKO-FILE-MANAGER/refs/heads/main/Screenshot%202025-09-03%20062815.png">  
-</div>
+[![Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=%E2%98%95&slug=muhsatria&button_colour=FFDD00&font_colour=000000&font_family=Comic&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/muhsatria)
 
+---
 
-<div align="center">
- <h1> Support me : </h1>
-<a href="https://www.buymeacoffee.com/muhsatria"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=%E2%98%95&slug=muhsatria&button_colour=FFDD00&font_colour=000000&font_family=Comic&outline_colour=000000&coffee_colour=ffffff" /></a>
-</div>
+## 📜 Lisensi
 
-
-Copyright (c) 2025 MrMad
-</samp>
