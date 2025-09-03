@@ -33,7 +33,7 @@ Upload this `fm_gecko.php` To Your Website!
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/MadExploits/Gecko/main/image.png">  
+<img src="https://raw.githubusercontent.com/MadExploits/GECKO-FILE-MANAGER/refs/heads/main/Screenshot%202025-09-03%20062815.png">  
 </div>
 
 
