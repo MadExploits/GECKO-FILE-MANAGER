@@ -2369,7 +2369,7 @@ button:focus-visible, .bc-btn:focus-visible, .ico-btn:focus-visible { outline-of
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
   width: 95%; max-width: 820px; height: 820px;
-  background: url('image.png') center/contain no-repeat;
+  background: url('https://raw.githubusercontent.com/MadExploits/GECKO-FILE-MANAGER/refs/heads/main/image.png') center/contain no-repeat;
   opacity: .035;
   pointer-events: none;
   z-index: 0;
