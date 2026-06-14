@@ -1,4 +1,4 @@
-# 🦎 Gecko File Manager
+# 🦎 Gecko File Manager v2
 
 ![Screenshot](https://raw.githubusercontent.com/MadExploits/GECKO-FILE-MANAGER/refs/heads/main/Screenshot%202026-06-14%20200255.png)
 
@@ -14,7 +14,8 @@ Gecko File Manager adalah **file manager berbasis web** dengan berbagai fitur ta
 - 🔗 Backconnect  
 - 🌐 Port Scanner  
 - 🗄️ Adminer (DB Manager)  
-
+- Blue Team Offensive Tools
+- Red Team Offensive Tools
 ---
 
 ## 📥 Instalasi
