@@ -28,7 +28,7 @@ Gecko File Manager adalah **file manager berbasis web** dengan berbagai fitur ta
 
 ## 📸 Screenshot
 
-![UI](https://raw.githubusercontent.com/MadExploits/GECKO-FILE-MANAGER/refs/heads/main/Screenshot%202025-09-03%20062815.png)
+![UI](https://raw.githubusercontent.com/MadExploits/GECKO-FILE-MANAGER/refs/heads/main/Screenshot%202026-06-14%20200527.png)
 
 ---
 
