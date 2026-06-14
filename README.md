@@ -1,6 +1,6 @@
 # 🦎 Gecko File Manager
 
-![Screenshot](https://raw.githubusercontent.com/MadExploits/GECKO-FILE-MANAGER/refs/heads/main/Screenshot%202025-09-03%20062815.png)
+![Screenshot](https://raw.githubusercontent.com/MadExploits/GECKO-FILE-MANAGER/refs/heads/main/Screenshot%202026-06-14%20200255.png)
 
 Gecko File Manager adalah **file manager berbasis web** dengan berbagai fitur tambahan untuk eksplorasi, manajemen, dan testing keamanan.  
 > ⚠️ **Disclaimer**: Saya tidak bertanggung jawab atas penyalahgunaan tool ini. Gunakan dengan bijak untuk tujuan edukasi atau testing pribadi.
