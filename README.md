@@ -20,7 +20,7 @@ Gecko File Manager adalah **file manager berbasis web** dengan berbagai fitur ta
 
 ## 📥 Instalasi
 
-1. Upload file `fm_gecko.php` ke server / website kamu.  
+1. Upload file `fm_geckov2.php` ke server / website kamu.  
 2. Akses melalui browser.  
 3. Done ✅  
 
